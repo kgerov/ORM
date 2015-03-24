@@ -1,0 +1,14 @@
+D:\OnCode\DBApps\02.CodeFirst\StudentSystem\StudentSystem.Data\bin\Debug\StudentSystem.Data.dll.config
+D:\OnCode\DBApps\02.CodeFirst\StudentSystem\StudentSystem.Data\bin\Debug\StudentSystem.Data.dll
+D:\OnCode\DBApps\02.CodeFirst\StudentSystem\StudentSystem.Data\bin\Debug\StudentSystem.Data.pdb
+D:\OnCode\DBApps\02.CodeFirst\StudentSystem\StudentSystem.Data\bin\Debug\EntityFramework.dll
+D:\OnCode\DBApps\02.CodeFirst\StudentSystem\StudentSystem.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\OnCode\DBApps\02.CodeFirst\StudentSystem\StudentSystem.Data\bin\Debug\StudentSystem.Models.dll
+D:\OnCode\DBApps\02.CodeFirst\StudentSystem\StudentSystem.Data\bin\Debug\StudentSystem.Models.pdb
+D:\OnCode\DBApps\02.CodeFirst\StudentSystem\StudentSystem.Data\bin\Debug\EntityFramework.xml
+D:\OnCode\DBApps\02.CodeFirst\StudentSystem\StudentSystem.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\OnCode\DBApps\02.CodeFirst\StudentSystem\StudentSystem.Data\obj\Debug\StudentSystem.Data.csprojResolveAssemblyReference.cache
+D:\OnCode\DBApps\02.CodeFirst\StudentSystem\StudentSystem.Data\obj\Debug\StudentSystem.Data.dll
+D:\OnCode\DBApps\02.CodeFirst\StudentSystem\StudentSystem.Data\obj\Debug\StudentSystem.Data.pdb
+D:\OnCode\DBApps\02.CodeFirst\StudentSystem\StudentSystem.Data\obj\Debug\StudentSystem.Data.Migrations.InitialCreate.resources
+D:\OnCode\DBApps\02.CodeFirst\StudentSystem\StudentSystem.Data\obj\Debug\StudentSystem.Data.csproj.GenerateResource.Cache

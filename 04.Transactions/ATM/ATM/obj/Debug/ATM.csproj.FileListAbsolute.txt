@@ -1,0 +1,10 @@
+D:\OnCode\DBApps\04.Transactions\ATM\ATM\bin\Debug\ATM.exe.config
+D:\OnCode\DBApps\04.Transactions\ATM\ATM\bin\Debug\ATM.exe
+D:\OnCode\DBApps\04.Transactions\ATM\ATM\bin\Debug\ATM.pdb
+D:\OnCode\DBApps\04.Transactions\ATM\ATM\bin\Debug\EntityFramework.dll
+D:\OnCode\DBApps\04.Transactions\ATM\ATM\bin\Debug\EntityFramework.SqlServer.dll
+D:\OnCode\DBApps\04.Transactions\ATM\ATM\bin\Debug\EntityFramework.xml
+D:\OnCode\DBApps\04.Transactions\ATM\ATM\bin\Debug\EntityFramework.SqlServer.xml
+D:\OnCode\DBApps\04.Transactions\ATM\ATM\obj\Debug\ATM.csprojResolveAssemblyReference.cache
+D:\OnCode\DBApps\04.Transactions\ATM\ATM\obj\Debug\ATM.exe
+D:\OnCode\DBApps\04.Transactions\ATM\ATM\obj\Debug\ATM.pdb

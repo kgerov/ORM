@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ATMModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="CardAccounts">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CardNumber" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="CardPin" Type="char" MaxLength="4" Nullable="false" />
+    <Property Name="CardCash" Type="money" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="TransactionHistory">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CardNumberId" Type="int" Nullable="false" />
+    <Property Name="TransactionDate" Type="datetime" Nullable="false" />
+    <Property Name="Amount" Type="money" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_TransactionHistory_CardAccounts">
+    <End Role="CardAccounts" Type="Self.CardAccounts" Multiplicity="1" />
+    <End Role="TransactionHistory" Type="Self.TransactionHistory" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CardAccounts">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TransactionHistory">
+        <PropertyRef Name="CardNumberId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ATMModelStoreContainer">
+    <EntitySet Name="CardAccounts" EntityType="Self.CardAccounts" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TransactionHistory" EntityType="Self.TransactionHistory" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_TransactionHistory_CardAccounts" Association="Self.FK_TransactionHistory_CardAccounts">
+      <End Role="CardAccounts" EntitySet="CardAccounts" />
+      <End Role="TransactionHistory" EntitySet="TransactionHistory" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

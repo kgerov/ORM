@@ -1,0 +1,10 @@
+D:\OnCode\DBApps\03.Performance\PerformanceTest\PerformanceTest\bin\Debug\PerformanceTest.exe.config
+D:\OnCode\DBApps\03.Performance\PerformanceTest\PerformanceTest\bin\Debug\PerformanceTest.exe
+D:\OnCode\DBApps\03.Performance\PerformanceTest\PerformanceTest\bin\Debug\PerformanceTest.pdb
+D:\OnCode\DBApps\03.Performance\PerformanceTest\PerformanceTest\bin\Debug\EntityFramework.dll
+D:\OnCode\DBApps\03.Performance\PerformanceTest\PerformanceTest\bin\Debug\EntityFramework.SqlServer.dll
+D:\OnCode\DBApps\03.Performance\PerformanceTest\PerformanceTest\bin\Debug\EntityFramework.xml
+D:\OnCode\DBApps\03.Performance\PerformanceTest\PerformanceTest\bin\Debug\EntityFramework.SqlServer.xml
+D:\OnCode\DBApps\03.Performance\PerformanceTest\PerformanceTest\obj\Debug\PerformanceTest.csprojResolveAssemblyReference.cache
+D:\OnCode\DBApps\03.Performance\PerformanceTest\PerformanceTest\obj\Debug\PerformanceTest.exe
+D:\OnCode\DBApps\03.Performance\PerformanceTest\PerformanceTest\obj\Debug\PerformanceTest.pdb

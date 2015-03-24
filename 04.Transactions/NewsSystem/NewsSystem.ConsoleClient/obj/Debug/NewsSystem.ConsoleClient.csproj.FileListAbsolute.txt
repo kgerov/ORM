@@ -1,0 +1,14 @@
+D:\OnCode\DBApps\04.Transactions\NewsSystem\NewsSystem.ConsoleClient\bin\Debug\NewsSystem.ConsoleClient.exe.config
+D:\OnCode\DBApps\04.Transactions\NewsSystem\NewsSystem.ConsoleClient\bin\Debug\NewsSystem.ConsoleClient.exe
+D:\OnCode\DBApps\04.Transactions\NewsSystem\NewsSystem.ConsoleClient\bin\Debug\NewsSystem.ConsoleClient.pdb
+D:\OnCode\DBApps\04.Transactions\NewsSystem\NewsSystem.ConsoleClient\bin\Debug\EntityFramework.dll
+D:\OnCode\DBApps\04.Transactions\NewsSystem\NewsSystem.ConsoleClient\bin\Debug\EntityFramework.SqlServer.dll
+D:\OnCode\DBApps\04.Transactions\NewsSystem\NewsSystem.ConsoleClient\bin\Debug\EntityFramework.xml
+D:\OnCode\DBApps\04.Transactions\NewsSystem\NewsSystem.ConsoleClient\bin\Debug\EntityFramework.SqlServer.xml
+D:\OnCode\DBApps\04.Transactions\NewsSystem\NewsSystem.ConsoleClient\obj\Debug\NewsSystem.ConsoleClient.csprojResolveAssemblyReference.cache
+D:\OnCode\DBApps\04.Transactions\NewsSystem\NewsSystem.ConsoleClient\obj\Debug\NewsSystem.ConsoleClient.exe
+D:\OnCode\DBApps\04.Transactions\NewsSystem\NewsSystem.ConsoleClient\obj\Debug\NewsSystem.ConsoleClient.pdb
+D:\OnCode\DBApps\04.Transactions\NewsSystem\NewsSystem.ConsoleClient\bin\Debug\NewsSystem.Data.dll
+D:\OnCode\DBApps\04.Transactions\NewsSystem\NewsSystem.ConsoleClient\bin\Debug\NewsSystem.Models.dll
+D:\OnCode\DBApps\04.Transactions\NewsSystem\NewsSystem.ConsoleClient\bin\Debug\NewsSystem.Data.pdb
+D:\OnCode\DBApps\04.Transactions\NewsSystem\NewsSystem.ConsoleClient\bin\Debug\NewsSystem.Models.pdb

@@ -1,0 +1,10 @@
+D:\OnCode\DBApps\04.Transactions\NewsSystem\NewsSystem.Models\bin\Debug\NewsSystem.Models.dll.config
+D:\OnCode\DBApps\04.Transactions\NewsSystem\NewsSystem.Models\bin\Debug\NewsSystem.Models.dll
+D:\OnCode\DBApps\04.Transactions\NewsSystem\NewsSystem.Models\bin\Debug\NewsSystem.Models.pdb
+D:\OnCode\DBApps\04.Transactions\NewsSystem\NewsSystem.Models\bin\Debug\EntityFramework.dll
+D:\OnCode\DBApps\04.Transactions\NewsSystem\NewsSystem.Models\bin\Debug\EntityFramework.SqlServer.dll
+D:\OnCode\DBApps\04.Transactions\NewsSystem\NewsSystem.Models\bin\Debug\EntityFramework.xml
+D:\OnCode\DBApps\04.Transactions\NewsSystem\NewsSystem.Models\bin\Debug\EntityFramework.SqlServer.xml
+D:\OnCode\DBApps\04.Transactions\NewsSystem\NewsSystem.Models\obj\Debug\NewsSystem.Models.dll
+D:\OnCode\DBApps\04.Transactions\NewsSystem\NewsSystem.Models\obj\Debug\NewsSystem.Models.pdb
+D:\OnCode\DBApps\04.Transactions\NewsSystem\NewsSystem.Models\obj\Debug\NewsSystem.Models.csprojResolveAssemblyReference.cache

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ATMModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="CardAccount">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CardNumber" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="CardPin" Type="String" MaxLength="4" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="CardCash" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <NavigationProperty Name="TransactionHistories" Relationship="ATMModel.FK_TransactionHistory_CardAccounts" FromRole="CardAccount" ToRole="TransactionHistory" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityContainer Name="ATMEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CardAccounts" EntityType="Self.CardAccount" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="TransactionHistories" EntityType="ATMModel.TransactionHistory" />
+    <AssociationSet Name="FK_TransactionHistory_CardAccounts" Association="ATMModel.FK_TransactionHistory_CardAccounts">
+      <End Role="CardAccount" EntitySet="CardAccounts" />
+      <End Role="TransactionHistory" EntitySet="TransactionHistories" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="TransactionHistory">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CardNumberId" Type="Int32" Nullable="false" />
+    <Property Name="TransactionDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Amount" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <NavigationProperty Name="CardAccount" Relationship="ATMModel.FK_TransactionHistory_CardAccounts" FromRole="TransactionHistory" ToRole="CardAccount" />
+  </EntityType>
+  <Association Name="FK_TransactionHistory_CardAccounts">
+    <End Type="ATMModel.CardAccount" Role="CardAccount" Multiplicity="1" />
+    <End Type="ATMModel.TransactionHistory" Role="TransactionHistory" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CardAccount">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TransactionHistory">
+        <PropertyRef Name="CardNumberId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

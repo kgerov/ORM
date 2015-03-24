@@ -1,0 +1,10 @@
+D:\OnCode\DBApps\01.EntityFramework\EntityFramework\EntityFramework\bin\Debug\EntityFramework.exe.config
+D:\OnCode\DBApps\01.EntityFramework\EntityFramework\EntityFramework\obj\Debug\EntityFramework.csprojResolveAssemblyReference.cache
+D:\OnCode\DBApps\01.EntityFramework\EntityFramework\EntityFramework\bin\Debug\EntityFramework.exe
+D:\OnCode\DBApps\01.EntityFramework\EntityFramework\EntityFramework\bin\Debug\EntityFramework.pdb
+D:\OnCode\DBApps\01.EntityFramework\EntityFramework\EntityFramework\bin\Debug\EntityFramework.dll
+D:\OnCode\DBApps\01.EntityFramework\EntityFramework\EntityFramework\bin\Debug\EntityFramework.SqlServer.dll
+D:\OnCode\DBApps\01.EntityFramework\EntityFramework\EntityFramework\bin\Debug\EntityFramework.xml
+D:\OnCode\DBApps\01.EntityFramework\EntityFramework\EntityFramework\bin\Debug\EntityFramework.SqlServer.xml
+D:\OnCode\DBApps\01.EntityFramework\EntityFramework\EntityFramework\obj\Debug\EntityFramework.exe
+D:\OnCode\DBApps\01.EntityFramework\EntityFramework\EntityFramework\obj\Debug\EntityFramework.pdb
