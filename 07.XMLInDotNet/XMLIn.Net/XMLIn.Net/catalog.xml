@@ -3,7 +3,7 @@
     <album>
       <artist>Radiohead</artist>
       <producer>JJRecords</producer>
-      <year>2014</year>
+      <year>2014-12-12</year>
       <price>123.50</price>
       <name>The King of Limbs</name>
       <songs>
@@ -20,7 +20,7 @@
     <album>
       <artist>Radiohead</artist>
       <producer>JJRecords</producer>
-      <year>2013</year>
+      <year>2004-12-12</year>
       <price>19.50</price>
       <name>OK Computer</name>
       <songs>
@@ -41,7 +41,7 @@
     <album>
       <artist>Portishead</artist>
       <producer>JJRecords</producer>
-      <year>2012</year>
+      <year>1997-02-01</year>
       <price>23.50</price>
       <name>Dummy</name>
       <songs>
@@ -61,7 +61,7 @@
     <album>
       <artist>Portishead</artist>
       <producer>JJRecords</producer>
-      <year>2014</year>
+      <year>2013-04-04</year>
       <price>53.50</price>
       <name>Third</name>
       <songs>

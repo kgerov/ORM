@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<catalog>
+  <album>
+    <artist>Radiohead</artist>
+    <producer>JJRecords</producer>
+    <year>2013</year>
+    <price>19.50</price>
+    <name>OK Computer</name>
+    <songs>
+      <song title="Airbag" length="4:44" />
+      <song title="Paranoid Android" length="6:23" />
+      <song title="Subterranean Homesick Alien" length="4:27" />
+      <song title="Exit Music (For a Film)" length="4:24" />
+      <song title="Let Down" length="4:59" />
+      <song title="Karma Police" length="4:21" />
+      <song title="Fitter Happier" length="1:57" />
+      <song title="Electioneering" length="3:50" />
+      <song title="Climbing Up the Walls" length="4:45" />
+      <song title="No Surprises" length="3:48" />
+      <song title="Lucky" length="4:19" />
+      <song title="The Tourist" length="5:24" />
+    </songs>
+  </album>
+</catalog>
