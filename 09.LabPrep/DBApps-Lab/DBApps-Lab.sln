@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.EF-Mappings", "EF-Mappings\01.EF-Mappings.csproj", "{C57B241A-47EA-4877-9B46-47E54B8D82D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Export-Rivers-as-JSON", "02.Export Rivers as JSON\02.Export-Rivers-as-JSON.csproj", "{2F264B87-C480-43ED-9BFC-E378EE40BA7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Export-Monasteries-as-XML", "03.Export-Monasteries-as-XML\03.Export-Monasteries-as-XML.csproj", "{5CE14D9F-73C0-4BD2-83AB-CD4C5CB08B6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Import-Rivers-From-XML", "4. Import-Rivers-From-XML\4. Import-Rivers-From-XML.csproj", "{40BD2393-76F3-4089-99B5-2D3B2C04EF11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Mountains-Code-First", "5. Mountains-Code-First\5. Mountains-Code-First.csproj", "{13C78147-95AB-4A1A-9638-42CB68B62F4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C57B241A-47EA-4877-9B46-47E54B8D82D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C57B241A-47EA-4877-9B46-47E54B8D82D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C57B241A-47EA-4877-9B46-47E54B8D82D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C57B241A-47EA-4877-9B46-47E54B8D82D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F264B87-C480-43ED-9BFC-E378EE40BA7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F264B87-C480-43ED-9BFC-E378EE40BA7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F264B87-C480-43ED-9BFC-E378EE40BA7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F264B87-C480-43ED-9BFC-E378EE40BA7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CE14D9F-73C0-4BD2-83AB-CD4C5CB08B6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CE14D9F-73C0-4BD2-83AB-CD4C5CB08B6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CE14D9F-73C0-4BD2-83AB-CD4C5CB08B6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CE14D9F-73C0-4BD2-83AB-CD4C5CB08B6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40BD2393-76F3-4089-99B5-2D3B2C04EF11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40BD2393-76F3-4089-99B5-2D3B2C04EF11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40BD2393-76F3-4089-99B5-2D3B2C04EF11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40BD2393-76F3-4089-99B5-2D3B2C04EF11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13C78147-95AB-4A1A-9638-42CB68B62F4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13C78147-95AB-4A1A-9638-42CB68B62F4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13C78147-95AB-4A1A-9638-42CB68B62F4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13C78147-95AB-4A1A-9638-42CB68B62F4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
