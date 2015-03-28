@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="urn:student-org:student" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="urn:student-org:student" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="urn:examp-org:exam" />
+  <xs:element name="student">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string" />
+        <xs:element name="gender" type="xs:string" />
+        <xs:element name="birthday" type="xs:date" />
+        <xs:element minOccurs="0" name="phone" type="xs:int" />
+        <xs:element name="email" type="xs:string" />
+        <xs:element name="university" type="xs:string" />
+        <xs:element name="specialty" type="xs:string" />
+        <xs:element minOccurs="0" name="facultynumber" type="xs:unsignedByte" />
+        <xs:element name="exams">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" xmlns:q1="urn:examp-org:exam" ref="q1:exam" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
