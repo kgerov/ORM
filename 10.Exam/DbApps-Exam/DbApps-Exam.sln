@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.EF-Mappings", "01.EF-Mappings\01.EF-Mappings.csproj", "{229E5943-1E15-4577-9431-7FE8A68331AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.ExportLeaguesAndTeamsAsJson", "02.ExportLeaguesAndTeamsAsJson\02.ExportLeaguesAndTeamsAsJson.csproj", "{D1EA6CC0-31B7-482F-BA61-36B556465E30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.ExportInternationalMatchesAsXML", "03.ExportInternationalMatchesAsXML\03.ExportInternationalMatchesAsXML.csproj", "{D7D8A129-CDC8-4458-9604-179F459601E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. ImportLeaguesAndTeamsFromXML", "04. ImportLeaguesAndTeamsFromXML\04. ImportLeaguesAndTeamsFromXML.csproj", "{204A0D40-A236-40A1-94B5-A684C5857230}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.GenerateRandomMatches", "05.GenerateRandomMatches\05.GenerateRandomMatches.csproj", "{0DF19D95-3FCE-4725-8037-B246AB236D53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.CodeFirstPhonebook", "06.CodeFirstPhonebook\06.CodeFirstPhonebook.csproj", "{3A69D4F0-7060-42AC-A321-70039EB5A22A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.ImportContactsFromJSON", "07.ImportContactsFromJSON\07.ImportContactsFromJSON.csproj", "{B3851EE2-B2C4-4459-AD96-F32259D97779}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{229E5943-1E15-4577-9431-7FE8A68331AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{229E5943-1E15-4577-9431-7FE8A68331AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{229E5943-1E15-4577-9431-7FE8A68331AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{229E5943-1E15-4577-9431-7FE8A68331AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1EA6CC0-31B7-482F-BA61-36B556465E30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1EA6CC0-31B7-482F-BA61-36B556465E30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1EA6CC0-31B7-482F-BA61-36B556465E30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1EA6CC0-31B7-482F-BA61-36B556465E30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7D8A129-CDC8-4458-9604-179F459601E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7D8A129-CDC8-4458-9604-179F459601E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7D8A129-CDC8-4458-9604-179F459601E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7D8A129-CDC8-4458-9604-179F459601E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{204A0D40-A236-40A1-94B5-A684C5857230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{204A0D40-A236-40A1-94B5-A684C5857230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{204A0D40-A236-40A1-94B5-A684C5857230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{204A0D40-A236-40A1-94B5-A684C5857230}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DF19D95-3FCE-4725-8037-B246AB236D53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DF19D95-3FCE-4725-8037-B246AB236D53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DF19D95-3FCE-4725-8037-B246AB236D53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DF19D95-3FCE-4725-8037-B246AB236D53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A69D4F0-7060-42AC-A321-70039EB5A22A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A69D4F0-7060-42AC-A321-70039EB5A22A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A69D4F0-7060-42AC-A321-70039EB5A22A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A69D4F0-7060-42AC-A321-70039EB5A22A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3851EE2-B2C4-4459-AD96-F32259D97779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3851EE2-B2C4-4459-AD96-F32259D97779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3851EE2-B2C4-4459-AD96-F32259D97779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3851EE2-B2C4-4459-AD96-F32259D97779}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
